@@ -6,6 +6,14 @@ Halaman PDF 263–283. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=2
 
 [Catatan belajar bab 15](../study/15-the-financial-markets.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[Kompilasi dan peta keterkaitan](53-kompilasi-rumus.md) · [Catatan belajar Indonesia](../study/15-the-financial-markets.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 263
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=263)

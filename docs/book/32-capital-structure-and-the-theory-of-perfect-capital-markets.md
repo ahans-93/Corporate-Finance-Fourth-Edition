@@ -6,6 +6,14 @@ Halaman PDF 609–620. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=6
 
 [Catatan belajar bab 32](../study/32-capital-structure-and-the-theory-of-perfect-capital-markets.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S22](53-kompilasi-rumus.md#s22) · [Catatan belajar Indonesia](../study/32-capital-structure-and-the-theory-of-perfect-capital-markets.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 609
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=609)

@@ -6,6 +6,14 @@ Halaman PDF 853–867. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=8
 
 [Catatan belajar bab 46](../study/46-leveraged-buyouts-lbos.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S29](53-kompilasi-rumus.md#s29) · [Catatan belajar Indonesia](../study/46-leveraged-buyouts-lbos.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 853
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=853)

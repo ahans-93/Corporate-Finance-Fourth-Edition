@@ -6,6 +6,14 @@ Halaman PDF 301–316. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=3
 
 [Catatan belajar bab 17](../study/17-the-internal-rate-of-return.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S10](53-kompilasi-rumus.md#s10) · [Catatan belajar Indonesia](../study/17-the-internal-rate-of-return.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 301
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=301)

@@ -50,3 +50,8 @@ w(".gitbook.yaml","root: ./\nstructure:\n  readme: README.md\n  summary: SUMMARY
 w("requirements.txt","pypdf==6.10.0")
 w(".gitignore","__pycache__/\n*.py[cod]\n.venv/\n.work/\n")
 print(json.dumps(dict(pages=997,source_files=len(segs),study_chapters=50,source_characters=report["characters"],pdf_sha256=sha)))
+
+# Reapply the optional formula supplement after regenerating source chapters.
+if (R/"scripts/build_formula_supplement.py").exists():
+    import runpy
+    runpy.run_path(str(R/"scripts/build_formula_supplement.py"),run_name="__main__")

@@ -11,6 +11,11 @@
 * [Kasus terintegrasi](docs/integrated-case.md)
 * [Glosarium](docs/glossary.md)
 
+<!-- formula-nav:start -->
+* [Kompilasi 150 persamaan — versi telaah](docs/book/53-kompilasi-rumus.md)
+* [Koreksi dan asumsi kompilasi](docs/book/54-catatan-koreksi-rumus.md)
+<!-- formula-nav:end -->
+
 ## Catatan belajar Indonesia
 
 

@@ -6,6 +6,14 @@ Halaman PDF 711–723. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=7
 
 [Catatan belajar bab 38](../study/38-share-issues.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S26](53-kompilasi-rumus.md#s26) · [Catatan belajar Indonesia](../study/38-share-issues.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 711
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=711)

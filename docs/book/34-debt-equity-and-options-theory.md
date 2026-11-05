@@ -6,6 +6,14 @@ Halaman PDF 638–656. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=6
 
 [Catatan belajar bab 34](../study/34-debt-equity-and-options-theory.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S24](53-kompilasi-rumus.md#s24) · [Catatan belajar Indonesia](../study/34-debt-equity-and-options-theory.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 638
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=638)

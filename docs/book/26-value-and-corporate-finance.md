@@ -6,6 +6,14 @@ Halaman PDF 489–507. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=4
 
 [Catatan belajar bab 26](../study/26-value-and-corporate-finance.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S17](53-kompilasi-rumus.md#s17) · [Catatan belajar Indonesia](../study/26-value-and-corporate-finance.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 489
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=489)

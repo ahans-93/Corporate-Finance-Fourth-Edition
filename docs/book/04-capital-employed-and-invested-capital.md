@@ -6,6 +6,14 @@ Halaman PDF 60–72. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=60)
 
 [Catatan belajar bab 4](../study/04-capital-employed-and-invested-capital.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S03](53-kompilasi-rumus.md#s03) · [Catatan belajar Indonesia](../study/04-capital-employed-and-invested-capital.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 60
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=60)

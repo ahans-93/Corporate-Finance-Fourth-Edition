@@ -1,0 +1,46 @@
+{
+  "originals": [
+    {
+      "path": "docs/book/supplements/kompilasi_rumus_corporate_finance.md",
+      "bytes": 23994,
+      "sha256": "676bfa7d9b3e5baaa35c63f0f777435759bf7be02c0a9aa1729f58b54f351b8c"
+    },
+    {
+      "path": "docs/book/supplements/kompilasi_rumus_corporate_finance.tex",
+      "bytes": 26198,
+      "sha256": "de18a0039efcf612fb0fb0ed9bbb6367b79e2d09f052383d660c1da50ba08df9"
+    },
+    {
+      "path": "docs/book/supplements/kompilasi_rumus_corporate_finance.pdf",
+      "bytes": 197257,
+      "sha256": "ccad05803d544112d662ddb9bb38bd712dbc67360df91f54f02cfd628e7960c3"
+    }
+  ],
+  "numbered_equations": 150,
+  "sections": 31,
+  "rewritten_equations": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    13,
+    17,
+    38,
+    54,
+    95,
+    96,
+    99,
+    111,
+    125,
+    136,
+    137,
+    138,
+    145,
+    147,
+    150
+  ]
+}

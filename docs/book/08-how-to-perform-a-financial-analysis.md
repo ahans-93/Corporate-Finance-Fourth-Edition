@@ -6,6 +6,14 @@ Halaman PDF 133–158. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=1
 
 [Catatan belajar bab 8](../study/08-how-to-perform-a-financial-analysis.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S08](53-kompilasi-rumus.md#s08) · [Catatan belajar Indonesia](../study/08-how-to-perform-a-financial-analysis.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 133
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=133)

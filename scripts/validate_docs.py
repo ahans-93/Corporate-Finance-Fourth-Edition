@@ -3,6 +3,7 @@ from pathlib import Path
 import json,re,hashlib
 from urllib.parse import unquote,urlsplit
 from finance_examples import run_checks
+from validate_formula_supplement import run_supplement_checks
 R=Path(__file__).resolve().parents[1]
 errors=[]; links=0
 def require(ok,msg):
@@ -22,7 +23,7 @@ for seg in manifest["segments"]:
     require(page_numbers==expected,f"Page headings mismatch: {seg['path']}")
     coverage+=page_numbers
 require(coverage==list(range(1,998)),"All PDF pages must appear exactly once and in order")
-require(len(list((R/"docs/book").glob("*.md")))==53,"Expected 53 source files")
+require(len(manifest["segments"])==53,"Expected 53 mapped source files")
 require(len(list((R/"docs/study").glob("*.md")))==50,"Expected 50 study chapters")
 require([n["n"] for n in notes]==list(range(1,51)),"Study data must cover 1 through 50")
 required=["## Konsep dan penalaran","## Rumus atau kerangka analisis","## Contoh dan langkah perhitungan","## Implikasi keputusan","## Kesalahan yang perlu dihindari","## Uji pemahaman"]
@@ -56,7 +57,7 @@ for path in R.rglob("*.md"):
         require(resolved.exists(),f"Broken local link: {path.relative_to(R)} -> {target}")
     if path.parent.name=="study":
         require("\\\\" not in t,"Unexpected doubled LaTeX slash in "+path.name)
-calculations=run_checks()
+calculations=run_checks()+run_supplement_checks()
 report=dict(status="PASS" if not errors else "FAIL",pages_covered=len(coverage),source_files=53,study_chapters=50,
   markdown_files=len(list(R.rglob("*.md"))),local_links_checked=links,numerical_checks=len(calculations),errors=errors,numerical_results=calculations)
 (R/"data/validation-results.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

@@ -9,6 +9,8 @@ Dokumentasi untuk membaca buku, menelusuri sumber per halaman, dan mempelajari k
 - [Daftar isi seluruh buku dan catatan 50 bab](SUMMARY.md)
 - [Panduan membaca](docs/reading-guide.md)
 - [Indeks subbagian, soal, dan jawaban asli](docs/source-index.md)
+- [Kompilasi 150 persamaan: versi telaah](docs/book/53-kompilasi-rumus.md)
+- [Koreksi dan asumsi kompilasi](docs/book/54-catatan-koreksi-rumus.md)
 - [Indeks rumus utama](docs/formulas.md)
 - [Rumus lanjutan dan asumsi](docs/advanced-formulas.md)
 - [50 latihan pendamping beserta pembahasan](docs/exercises.md)
@@ -43,8 +45,10 @@ Dengan Python dan dependensi pada requirements.txt:
 ~~~sh
 python -m pip install -r requirements.txt
 python scripts/build_docs.py
+python scripts/build_formula_supplement.py
 python scripts/build_source_index.py
 python scripts/finance_examples.py
+python scripts/validate_formula_supplement.py
 python scripts/validate_docs.py
 ~~~
 

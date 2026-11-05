@@ -6,6 +6,14 @@ Halaman PDF 35–44. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=35)
 
 [Catatan belajar bab 2](../study/02-cash-flow.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S01](53-kompilasi-rumus.md#s01) · [Catatan belajar Indonesia](../study/02-cash-flow.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 35
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=35)

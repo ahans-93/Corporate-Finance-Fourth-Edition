@@ -6,6 +6,14 @@ Halaman PDF 693–710. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=6
 
 [Catatan belajar bab 37](../study/37-distribution-in-practice-dividends-and-share-buybacks.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S25](53-kompilasi-rumus.md#s25) · [Catatan belajar Indonesia](../study/37-distribution-in-practice-dividends-and-share-buybacks.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 693
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=693)

@@ -6,6 +6,14 @@ Halaman PDF 345–364. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=3
 
 [Catatan belajar bab 19](../study/19-the-required-rate-of-return.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S12](53-kompilasi-rumus.md#s12) · [Catatan belajar Indonesia](../study/19-the-required-rate-of-return.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 345
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=345)

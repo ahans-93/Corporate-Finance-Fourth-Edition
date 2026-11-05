@@ -6,6 +6,14 @@ Halaman PDF 836–852. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=8
 
 [Catatan belajar bab 45](../study/45-mergers-and-demergers.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S28](53-kompilasi-rumus.md#s28) · [Catatan belajar Indonesia](../study/45-mergers-and-demergers.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 836
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=836)

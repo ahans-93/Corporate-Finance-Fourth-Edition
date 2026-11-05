@@ -6,6 +6,14 @@ Halaman PDF 868–884. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=8
 
 [Catatan belajar bab 47](../study/47-bankruptcy-and-restructuring.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[Kompilasi dan peta keterkaitan](53-kompilasi-rumus.md) · [Catatan belajar Indonesia](../study/47-bankruptcy-and-restructuring.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 868
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=868)

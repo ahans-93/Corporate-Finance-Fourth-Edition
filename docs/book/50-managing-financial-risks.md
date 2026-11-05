@@ -6,6 +6,14 @@ Halaman PDF 916–940. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=9
 
 [Catatan belajar bab 50](../study/50-managing-financial-risks.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S31](53-kompilasi-rumus.md#s31) · [Catatan belajar Indonesia](../study/50-managing-financial-risks.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 916
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=916)

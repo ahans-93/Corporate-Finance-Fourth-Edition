@@ -6,6 +6,14 @@ Halaman PDF 284–300. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=2
 
 [Catatan belajar bab 16](../study/16-the-time-value-of-money-and-net-present-value.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S09](53-kompilasi-rumus.md#s09) · [Catatan belajar Indonesia](../study/16-the-time-value-of-money-and-net-present-value.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 284
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=284)

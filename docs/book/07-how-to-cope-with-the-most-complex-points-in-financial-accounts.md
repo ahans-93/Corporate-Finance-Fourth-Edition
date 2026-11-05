@@ -6,6 +6,14 @@ Halaman PDF 105–132. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=1
 
 [Catatan belajar bab 7](../study/07-how-to-cope-with-the-most-complex-points-in-financial-accounts.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[Kompilasi dan peta keterkaitan](53-kompilasi-rumus.md) · [Catatan belajar Indonesia](../study/07-how-to-cope-with-the-most-complex-points-in-financial-accounts.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 105
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=105)

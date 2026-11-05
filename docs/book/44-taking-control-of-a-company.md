@@ -6,6 +6,14 @@ Halaman PDF 813–835. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=8
 
 [Catatan belajar bab 44](../study/44-taking-control-of-a-company.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S28](53-kompilasi-rumus.md#s28) · [Catatan belajar Indonesia](../study/44-taking-control-of-a-company.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 813
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=813)

@@ -6,6 +6,14 @@ Halaman PDF 885–896. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=8
 
 [Catatan belajar bab 48](../study/48-managing-working-capital.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S04](53-kompilasi-rumus.md#s04) · [Catatan belajar Indonesia](../study/48-managing-working-capital.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 885
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=885)

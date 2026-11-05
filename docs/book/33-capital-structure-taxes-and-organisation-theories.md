@@ -6,6 +6,14 @@ Halaman PDF 621–637. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=6
 
 [Catatan belajar bab 33](../study/33-capital-structure-taxes-and-organisation-theories.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S22](53-kompilasi-rumus.md#s22) · [S23](53-kompilasi-rumus.md#s23) · [Catatan belajar Indonesia](../study/33-capital-structure-taxes-and-organisation-theories.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 621
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=621)

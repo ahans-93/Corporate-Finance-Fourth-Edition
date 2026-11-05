@@ -3,9 +3,9 @@
   "pages_covered": 997,
   "source_files": 53,
   "study_chapters": 50,
-  "markdown_files": 114,
-  "local_links_checked": 2259,
-  "numerical_checks": 73,
+  "markdown_files": 119,
+  "local_links_checked": 2587,
+  "numerical_checks": 112,
   "errors": [],
   "numerical_results": [
     {
@@ -372,6 +372,201 @@
       "check": "Integrated WACC sensitivity",
       "actual": 1322.92850367852,
       "expected": 1322.92850367852
+    },
+    {
+      "check": "Supplement S01 FCFE",
+      "actual": 80,
+      "expected": 80
+    },
+    {
+      "check": "Supplement S02 EBITDA",
+      "actual": 210,
+      "expected": 210
+    },
+    {
+      "check": "Supplement S03 WCR",
+      "actual": 220,
+      "expected": 220
+    },
+    {
+      "check": "Supplement S03 capital reconciliation",
+      "actual": 820,
+      "expected": 820
+    },
+    {
+      "check": "Supplement S04 CCC",
+      "actual": 36.5,
+      "expected": 36.5
+    },
+    {
+      "check": "Supplement S05 margin of safety",
+      "actual": 0.16666666666666666,
+      "expected": 0.16666666666666666
+    },
+    {
+      "check": "Supplement S06 debt-service coverage",
+      "actual": 0.7692307692307693,
+      "expected": 0.7692307692307693
+    },
+    {
+      "check": "Supplement S07 ROE",
+      "actual": 0.18,
+      "expected": 0.18
+    },
+    {
+      "check": "Supplement S08 classical Z",
+      "actual": 2.9737999999999998,
+      "expected": 2.9738
+    },
+    {
+      "check": "Supplement S09 annuity PV",
+      "actual": 248.68519909842243,
+      "expected": 248.68519909842223
+    },
+    {
+      "check": "Supplement S10 MIRR",
+      "actual": 0.12249721603218244,
+      "expected": 0.12249721603218244
+    },
+    {
+      "check": "Supplement S11 portfolio sigma",
+      "actual": 0.1414213562373095,
+      "expected": 0.1414213562373095
+    },
+    {
+      "check": "Supplement S12 beta",
+      "actual": 1.2,
+      "expected": 1.2
+    },
+    {
+      "check": "Supplement S13 clean price",
+      "actual": 100.0,
+      "expected": 100
+    },
+    {
+      "check": "Supplement S14 DDM",
+      "actual": 50.00000000000001,
+      "expected": 50
+    },
+    {
+      "check": "Supplement S15 call",
+      "actual": 10.450583572185565,
+      "expected": 10.450583572185565
+    },
+    {
+      "check": "Supplement S15 vega per 1 percentage point",
+      "actual": 0.3752403469169379,
+      "expected": 0.3752403469169379
+    },
+    {
+      "check": "Supplement S16 conversion premium",
+      "actual": 0.05,
+      "expected": 0.05
+    },
+    {
+      "check": "Supplement S17 EV bridge",
+      "actual": 1330,
+      "expected": 1330
+    },
+    {
+      "check": "Supplement S18 CFROI IRR",
+      "actual": 0.13066238629180738,
+      "expected": 0.1306623862918075
+    },
+    {
+      "check": "Supplement S18 CFROI NPV",
+      "actual": -7.105427357601002e-15,
+      "expected": 0
+    },
+    {
+      "check": "Supplement S19 EAA",
+      "actual": 12.063444108761319,
+      "expected": 12.06344410876133
+    },
+    {
+      "check": "Supplement S20 WACC",
+      "actual": 0.10800000000000001,
+      "expected": 0.108
+    },
+    {
+      "check": "Supplement S21 DCF",
+      "actual": 1078.5714285714284,
+      "expected": 1078.5714285714284
+    },
+    {
+      "check": "Supplement S21 PEG",
+      "actual": 1.5,
+      "expected": 1.5
+    },
+    {
+      "check": "Supplement S22 MM equity return",
+      "actual": 0.13333333333333333,
+      "expected": 0.13333333333333333
+    },
+    {
+      "check": "Supplement S23 Hamada",
+      "actual": 1.1,
+      "expected": 1.1
+    },
+    {
+      "check": "Supplement S23 Harris-Pringle",
+      "actual": 1.1500000000000001,
+      "expected": 1.15
+    },
+    {
+      "check": "Supplement S24 debt payoff",
+      "actual": 70,
+      "expected": 70
+    },
+    {
+      "check": "Supplement S25 buyback EPS",
+      "actual": 1.0777777777777777,
+      "expected": 1.0777777777777777
+    },
+    {
+      "check": "Supplement S26 TERP",
+      "actual": 96.0,
+      "expected": 96
+    },
+    {
+      "check": "Supplement S27 founder dilution",
+      "actual": 0.6400000000000001,
+      "expected": 0.64
+    },
+    {
+      "check": "Supplement S28 acquisition NPV",
+      "actual": 20,
+      "expected": 20
+    },
+    {
+      "check": "Supplement S29 LBO sources uses",
+      "actual": 1020,
+      "expected": 1020
+    },
+    {
+      "check": "Supplement S30 Baumol",
+      "actual": 44721.359549995796,
+      "expected": 44721.359549995796
+    },
+    {
+      "check": "Supplement S30 Miller-Orr return point",
+      "actual": 1421.7163326508744,
+      "expected": 1421.7163326508744
+    },
+    {
+      "check": "Supplement S30 Miller-Orr upper bound",
+      "actual": 2265.148997952623,
+      "expected": 2265.1489979526236
+    },
+    {
+      "check": "Supplement S31 CIP with quarter tenor",
+      "actual": 16079.207920792078,
+      "expected": 16079.20792079208
+    },
+    {
+      "check": "Supplement S31 signed delta hedge",
+      "actual": 600.0,
+      "expected": 600
     }
   ]
 }

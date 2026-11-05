@@ -6,6 +6,14 @@ Halaman PDF 365–386. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=3
 
 [Catatan belajar bab 20](../study/20-bonds.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S13](53-kompilasi-rumus.md#s13) · [Catatan belajar Indonesia](../study/20-bonds.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 365
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=365)

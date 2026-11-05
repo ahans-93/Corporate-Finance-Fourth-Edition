@@ -6,6 +6,14 @@ Halaman PDF 197–217. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=1
 
 [Catatan belajar bab 11](../study/11-working-capital-and-capital-expenditures.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S03](53-kompilasi-rumus.md#s03) · [S04](53-kompilasi-rumus.md#s04) · [Catatan belajar Indonesia](../study/11-working-capital-and-capital-expenditures.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 197
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=197)

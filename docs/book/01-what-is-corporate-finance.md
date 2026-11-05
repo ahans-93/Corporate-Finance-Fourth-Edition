@@ -6,6 +6,14 @@ Halaman PDF 17–34. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=17)
 
 [Catatan belajar bab 1](../study/01-what-is-corporate-finance.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[Kompilasi dan peta keterkaitan](53-kompilasi-rumus.md) · [Catatan belajar Indonesia](../study/01-what-is-corporate-finance.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 17
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=17)

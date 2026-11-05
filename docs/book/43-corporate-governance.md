@@ -6,6 +6,14 @@ Halaman PDF 799–812. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=7
 
 [Catatan belajar bab 43](../study/43-corporate-governance.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[Kompilasi dan peta keterkaitan](53-kompilasi-rumus.md) · [Catatan belajar Indonesia](../study/43-corporate-governance.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 799
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=799)

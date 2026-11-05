@@ -6,6 +6,14 @@ Halaman PDF 422–443. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=4
 
 [Catatan belajar bab 23](../study/23-options.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S15](53-kompilasi-rumus.md#s15) · [Catatan belajar Indonesia](../study/23-options.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 422
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=422)

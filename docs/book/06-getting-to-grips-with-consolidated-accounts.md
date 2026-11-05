@@ -6,6 +6,14 @@ Halaman PDF 87–104. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=87
 
 [Catatan belajar bab 6](../study/06-getting-to-grips-with-consolidated-accounts.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[Kompilasi dan peta keterkaitan](53-kompilasi-rumus.md) · [Catatan belajar Indonesia](../study/06-getting-to-grips-with-consolidated-accounts.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 87
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=87)

@@ -41,3 +41,9 @@ python scripts/validate_docs.py
 ~~~
 
 Validator mengembalikan status gagal jika menemukan tautan lokal hilang, celah cakupan halaman, perubahan PDF, bab hilang, formula tidak berpasangan, atau hasil hitung yang tidak sesuai toleransi.
+
+## Pembaruan kompilasi rumus
+
+Pelengkap pada docs/book berisi [150 persamaan dalam 31 kelompok](book/53-kompilasi-rumus.md), [catatan koreksi](book/54-catatan-koreksi-rumus.md), dan tiga lampiran asli Markdown, LaTeX, serta PDF. Sebanyak 23 ID persamaan ditulis ulang untuk definisi, asumsi, tanda, atau cakupan. Formula tersebut bukan klaim inventaris seluruh persamaan buku.
+
+Validator tambahan memeriksa 39 contoh numerik; digabungkan 73 pemeriksaan sebelumnya menjadi 112. Semua nomor persamaan dan checksum lampiran juga diperiksa. Hasil lengkap tersedia pada [laporan validasi](../data/validation-results.json).

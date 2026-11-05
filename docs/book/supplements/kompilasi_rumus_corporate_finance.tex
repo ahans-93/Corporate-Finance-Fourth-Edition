@@ -1,0 +1,652 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,margin=20mm]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,tabularx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{charter}
+\usepackage{microtype}
+\usepackage{hyperref}
+
+% Length & spacing setup
+\setlength{\parskip}{5pt plus 2pt minus 1pt}
+\setlength{\parindent}{0pt}
+
+% Color definitions
+\definecolor{primary}{RGB}{27, 54, 93}      % Deep Corporate Navy
+\definecolor{secondary}{RGB}{46, 107, 158}  % Steel Blue
+\definecolor{darktext}{RGB}{34, 34, 34}     % Dark Charcoal
+\definecolor{calloutbg}{RGB}{244, 247, 250} % Light Slate Tint
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    citecolor=primary,
+    urlcolor=secondary
+}
+
+% Header & footer setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{gray}Kompilasi Rumus Lengkap: Corporate Finance (Vernimmen et al.)}
+\fancyhead[R]{\small\color{gray}\thepage}
+\fancyfoot[C]{\footnotesize\color{gray}Buku Pegangan Formula Keuangan Korporat • Notasi Matematis Versi E-Book}
+
+% Callout macro
+\newcommand{\takeaway}[2]{%
+  \vspace{6pt}\noindent\colorbox{calloutbg}{%
+    \parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+      \vspace{3pt}\textbf{\color{primary}#1:}\hspace{0.5em}#2\vspace{3pt}%
+    }%
+  }\vspace{6pt}%
+}
+
+\begin{document}
+
+% Title Block
+\begin{center}
+    {\LARGE\bfseries\color{primary} KOMPILASI RUMUS CORPORATE FINANCE}\\[4pt]
+    {\large\bfseries\color{secondary} FORMULASI MATEMATIS, MODEL PENILAIAN \& REKAYASA KEUANGAN}\\[6pt]
+    {\normalsize\itshape Berdasarkan E-Book: Corporate Finance: Theory and Practice (4th Edition)}\\
+    {\small Pierre Vernimmen, Pascal Quiry, Maurizio Dallocchio, Yann Le Fur, Antonio Salvi}\\[8pt]
+    \rule{\textwidth}{1pt}
+\end{center}
+
+\takeaway{Ringkasan Dokumen}{Kompilasi ini menyajikan seluruh rumus matematika keuangan, persamaan akuntansi manajerial, model penetapan harga aset modal, dan formula manajemen risiko dari ke-50 bab e-book \textit{Corporate Finance: Theory and Practice} (Vernimmen et al.). Format matematis disajikan menggunakan sintaks baku \LaTeX\ sesuai standar akademik dan notasi e-book aslinya.}
+
+\tableofcontents
+\vspace{10pt}
+\rule{\textwidth}{0.5pt}
+
+% =============================================================================
+% BAGIAN I: ANALISIS KEUANGAN (FINANCIAL ANALYSIS)
+% =============================================================================
+\section{Analisis Keuangan (Financial Analysis)}
+
+\subsection{Arus Kas \& Free Cash Flow (Bab 2 \& 5)}
+
+\begin{equation}
+\Delta\text{Cash} = \text{CFO} + \text{CFI} + \text{CFF}
+\end{equation}
+di mana $\text{CFO}$ adalah arus kas aktivitas operasi, $\text{CFI}$ adalah arus kas investasi, dan $\text{CFF}$ adalah arus kas pendanaan.
+
+\textbf{Arus Kas Operasi (CFO - Metode Tidak Langsung):}
+\begin{equation}
+\text{CFO} = \text{EBITDA} - \text{Taxes}_{\text{operating}} - \Delta\text{WCR}
+\end{equation}
+atau secara alternatif dari laba bersih:
+\begin{equation}
+\text{CFO} = \text{Net Income} + \text{Depreciation} + \text{Amortisation} + \text{Net Non-Cash Provisions} - \Delta\text{WCR}
+\end{equation}
+
+\textbf{Kapasitas Autofinansial (Cash Flow / CAF):}
+\begin{equation}
+\text{CAF} = \text{Net Income} + \text{Depreciation} + \text{Amortisation} - \text{Net Capital Gains on Disposals}
+\end{equation}
+
+\textbf{Free Cash Flow to Firm (FCFF):}
+\begin{equation}
+\text{FCFF} = \text{EBIT} \times (1 - T_c) + \text{Depreciation} - \text{Capex} - \Delta\text{WCR}
+\end{equation}
+di mana $T_c$ adalah tarif pajak korporasi marjinal, dan $\text{Capex}$ adalah belanja modal kotor.
+
+\textbf{Free Cash Flow to Equity (FCFE):}
+\begin{equation}
+\text{FCFE} = \text{Net Income} + \text{Depreciation} - \text{Capex} - \Delta\text{WCR} + \text{New Debt Issued} - \text{Debt Repaid}
+\end{equation}
+
+\subsection{Analisis Laba \& Pembentukan Nilai Tambah (Bab 3)}
+
+Format Laba Rugi \textit{By-Nature} (Vernimmen Standar):
+\begin{align}
+\text{Value Added (VA)} &= \text{Sales} - \text{External Purchases and Services} \\
+\text{EBITDA} &= \text{VA} - \text{Personnel Costs} + \text{Operating Subsidies} \\
+\text{EBIT} &= \text{EBITDA} - \text{Depreciation and Amortisation} - \text{Operating Provisions} \\
+\text{NOPAT} &= \text{EBIT} \times (1 - T_c) \\
+\text{EBT} &= \text{EBIT} - \text{Net Financial Expense} + \text{Non-Operating Items} \\
+\text{Net Income} &= \text{EBT} - \text{Corporate Income Tax}
+\end{align}
+
+\subsection{Modal Kerja \& Neraca Capital Employed (Bab 4 \& 11)}
+
+\begin{equation}
+\text{WCR} = \text{Inventories} + \text{Trade Receivables} - \text{Trade Payables} - \text{Other Operating Working Liabilities}
+\end{equation}
+
+\textbf{Identitas Fundamental Neraca Fungsional:}
+\begin{equation}
+\text{Capital Employed (CE)} = \text{Fixed Assets}_{\text{net}} + \text{WCR}
+\end{equation}
+\begin{equation}
+\text{Invested Capital} = \text{Shareholders' Equity} + \text{Net Financial Debt}
+\end{equation}
+\begin{equation}
+\text{Capital Employed} \equiv \text{Invested Capital}
+\end{equation}
+
+\textbf{Utang Finansial Bersih (Net Debt):}
+\begin{equation}
+\text{Net Debt} = \text{Long-Term Debt} + \text{Short-Term Bank Debt} - (\text{Cash} + \text{Cash Equivalents} + \text{Marketable Securities})
+\end{equation}
+
+\subsection{Rasio Perputaran Modal Kerja \& Siklus Kas (Bab 11)}
+
+\begin{align}
+\text{DSO} &= \frac{\text{Trade Receivables}}{\text{Sales (including VAT)}} \times 365 \\
+\text{DIO} &= \frac{\text{Inventories}}{\text{Cost of Goods Sold (COGS)}} \times 365 \\
+\text{DPO} &= \frac{\text{Trade Payables}}{\text{Purchases (including VAT)}} \times 365 \\
+\text{CCC} &= \text{DIO} + \text{DSO} - \text{DPO} \\
+\text{Capex Intensity} &= \frac{\text{Capex}}{\text{Annual Depreciation}}
+\end{align}
+
+\subsection{Margin, Risiko Operasi \& Titik Impas (Bab 9 \& 10)}
+
+\begin{align}
+\text{Gross Margin} &= \frac{\text{Sales} - \text{COGS}}{\text{Sales}}, \quad \text{Operating Margin} = \frac{\text{EBIT}}{\text{Sales}} \\
+\text{Contribution Margin (CM)} &= \text{Sales} - \text{Variable Costs} \\
+\text{CMR} &= \frac{\text{Sales} - \text{Variable Costs}}{\text{Sales}} = \frac{\text{CM}}{\text{Sales}} \\
+\text{BEP}_{\$} &= \frac{\text{Fixed Costs}}{\text{CMR}} \\
+\text{BEP}_{Q} &= \frac{\text{Fixed Costs}}{P - \text{VC}_{\text{unit}}} \\
+\text{Margin of Safety} &= \frac{\text{Actual Sales} - \text{BEP Sales}}{\text{Actual Sales}} \\
+\text{DOL} &= \frac{\% \Delta \text{EBIT}}{\% \Delta \text{Sales}} = \frac{\text{Sales} - \text{VC}}{\text{EBIT}} = \frac{\text{CM}}{\text{EBIT}}
+\end{align}
+
+\subsection{Solvabilitas, Likuiditas \& Struktur Utang (Bab 12)}
+
+\begin{align}
+\text{Gearing} &= \frac{\text{Net Debt}}{\text{Equity}} \\
+\text{Leverage Ratio} &= \frac{\text{Net Debt}}{\text{EBITDA}} \\
+\text{Interest Coverage Ratio (ICR)} &= \frac{\text{EBIT}}{\text{Net Financial Interest Expense}} \\
+\text{Debt Service Coverage Ratio (DSCR)} &= \frac{\text{CFADS}}{\text{Principal Repayment} + \text{Interest Expense}} \\
+\text{Debt Payback} &= \frac{\text{Net Debt}}{\text{CFO}} \\
+\text{Current Ratio} &= \frac{\text{Current Assets}}{\text{Current Liabilities}} \\
+\text{Quick Ratio} &= \frac{\text{Cash} + \text{Marketable Securities} + \text{Receivables}}{\text{Current Liabilities}}
+\end{align}
+
+\subsection{Profitabilitas Modal \& Formula Financial Leverage Vernimmen (Bab 13)}
+
+\textbf{Return on Capital Employed (ROCE):}
+\begin{equation}
+\text{ROCE} = \frac{\text{EBIT} \times (1 - T_c)}{\text{Capital Employed}}
+\end{equation}
+
+\textbf{Dekomposisi Dupont ROCE:}
+\begin{equation}
+\text{ROCE} = \underbrace{\left(\frac{\text{EBIT}(1 - T_c)}{\text{Sales}}\right)}_{\text{Operating Margin}} \times \underbrace{\left(\frac{\text{Sales}}{\text{Capital Employed}}\right)}_{\text{Capital Turnover}}
+\end{equation}
+
+\textbf{Return on Equity (ROE):}
+\begin{equation}
+\text{ROE} = \frac{\text{Net Income}}{\text{Shareholders' Equity}}
+\end{equation}
+
+\textbf{Formula Financial Leverage Vernimmen:}
+\begin{equation}
+\boxed{\text{ROE} = \text{ROCE} + (\text{ROCE} - i) \times \left(\frac{\text{Net Debt}}{\text{Equity}}\right)}
+\end{equation}
+di mana $i$ adalah biaya utang bersih setelah pajak:
+\begin{equation}
+i = \frac{\text{Net Financial Expense} \times (1 - T_c)}{\text{Net Debt}}
+\end{equation}
+
+\takeaway{Aturan Pengungkit Vernimmen}{Jika $\text{ROCE} > i$, penambahan utang mendongkrak $\text{ROE}$ (efek pengungkit positif). Jika $\text{ROCE} < i$, utang memperberat beban keuangan dan menekan $\text{ROE}$ di bawah $\text{ROCE}$ (efek pengungkit negatif).}
+
+\textbf{Dekomposisi DuPont 3-Faktor Tradisional:}
+\begin{equation}
+\text{ROE} = \underbrace{\left(\frac{\text{Net Income}}{\text{Sales}}\right)}_{\text{Net Profit Margin}} \times \underbrace{\left(\frac{\text{Sales}}{\text{Assets}}\right)}_{\text{Asset Turnover}} \times \underbrace{\left(\frac{\text{Assets}}{\text{Equity}}\right)}_{\text{Equity Multiplier}}
+\end{equation}
+
+\subsection{Model Prediksi Kebangkrutan Altman Z-Score (Bab 14)}
+
+\begin{equation}
+Z = 1.2 X_1 + 1.4 X_2 + 3.3 X_3 + 0.6 X_4 + 0.999 X_5
+\end{equation}
+dengan definisi rasio:
+\begin{itemize}
+    \setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}
+    \item $X_1 = \frac{\text{Working Capital}}{\text{Total Assets}}$
+    \item $X_2 = \frac{\text{Retained Earnings}}{\text{Total Assets}}$
+    \item $X_3 = \frac{\text{EBIT}}{\text{Total Assets}}$
+    \item $X_4 = \frac{\text{Market Value of Equity}}{\text{Total Liabilities}}$
+    \item $X_5 = \frac{\text{Sales}}{\text{Total Assets}}$
+\end{itemize}
+Zona klasifikasi: $Z > 2.99$ (Zona Aman), $1.81 \le Z \le 2.99$ (Zona Waspada/Abu-Abu), $Z < 1.81$ (Zona Bahaya/Distress).
+
+% =============================================================================
+% BAGIAN II: INVESTOR DAN PASAR KEUANGAN (INVESTORS AND MARKETS)
+% =============================================================================
+\section{Investor dan Pasar Keuangan (Investors and Markets)}
+
+\subsection{Nilai Waktu Uang, Anuitas \& Perpetuitas (Bab 16)}
+
+\begin{align}
+\text{Future Value (FV)} &= \text{PV} \times (1 + r)^n \\
+\text{Present Value (PV)} &= \frac{\text{FV}_n}{(1 + r)^n} = \text{FV}_n \times (1 + r)^{-n} \\
+\text{Continuous Compounding} &: \text{FV} = \text{PV} \cdot e^{rt}, \quad \text{PV} = \text{FV} \cdot e^{-rt} \\
+\text{Effective Annual Rate (EAR)} &= \left(1 + \frac{r_{\text{nom}}}{m}\right)^m - 1
+\end{align}
+
+\textbf{Anuitas Biasa (Ordinary Annuity):}
+\begin{equation}
+\text{PV}_{\text{annuity}} = C \times \left[\frac{1 - (1 + r)^{-n}}{r}\right]
+\end{equation}
+\begin{equation}
+\text{FV}_{\text{annuity}} = C \times \left[\frac{(1 + r)^n - 1}{r}\right]
+\end{equation}
+
+\textbf{Perpetuitas (Perpetuity):}
+\begin{equation}
+\text{PV}_{\text{perpetuity}} = \frac{C}{r}
+\end{equation}
+
+\textbf{Perpetuitas Bertumbuh (Gordon-Shapiro Perpetuity):}
+\begin{equation}
+\text{PV}_{\text{growing perpetuity}} = \frac{C_1}{r - g} \quad (r > g)
+\end{equation}
+
+\textbf{Anuitas Bertumbuh (Growing Annuity):}
+\begin{equation}
+\text{PV} = \frac{C_1}{r - g} \left[1 - \left(\frac{1 + g}{1 + r}\right)^n\right]
+\end{equation}
+
+\subsection{Tingkat Pengembalian Internal \& YTM (Bab 17)}
+
+\textbf{Internal Rate of Return (IRR):}
+\begin{equation}
+\sum_{t=0}^n \frac{\text{CF}_t}{(1 + \text{IRR})^t} = 0 \iff I_0 = \sum_{t=1}^n \frac{\text{CF}_t}{(1 + \text{IRR})^t}
+\end{equation}
+
+\textbf{Modified Internal Rate of Return (MIRR):}
+\begin{equation}
+\text{MIRR} = \left[\frac{\text{FV}(\text{Positive Cash Flows at Reinvestment Rate})}{\text{PV}(\text{Negative Cash Flows at Financing Rate})}\right]^{1/n} - 1
+\end{equation}
+
+\textbf{Yield to Maturity Obligasi (YTM):}
+\begin{equation}
+P = \sum_{t=1}^n \frac{C}{(1 + \text{YTM})^t} + \frac{M}{(1 + \text{YTM})^n}
+\end{equation}
+
+\subsection{Teori Portofolio Markowitz \& Pengukuran Risiko (Bab 18)}
+
+\begin{align}
+E(R_p) &= \sum_{i=1}^N w_i E(R_i) \quad \text{dengan} \quad \sum_{i=1}^N w_i = 1 \\
+\sigma_i^2 &= \sum_{k} p_k [R_{i,k} - E(R_i)]^2, \quad \sigma_i = \sqrt{\sigma_i^2} \\
+\text{Cov}(A,B) &= \sigma_{AB} = \rho_{AB} \sigma_A \sigma_B \\
+\rho_{AB} &= \frac{\text{Cov}(A,B)}{\sigma_A \sigma_B}, \quad -1 \le \rho_{AB} \le +1
+\end{align}
+
+\textbf{Varians Portofolio 2-Aset:}
+\begin{equation}
+\sigma_p^2 = w_A^2 \sigma_A^2 + w_B^2 \sigma_B^2 + 2 w_A w_B \rho_{AB} \sigma_A \sigma_B
+\end{equation}
+
+\textbf{Varians Portofolio N-Aset:}
+\begin{equation}
+\sigma_p^2 = \sum_{i=1}^N w_i^2 \sigma_i^2 + \sum_{i=1}^N \sum_{j \ne i} w_i w_j \sigma_{ij}
+\end{equation}
+
+\subsection{Model Penentuan Harga Aset Modal (CAPM) (Bab 19)}
+
+\textbf{Koefisien Beta ($\beta$):}
+\begin{equation}
+\beta_i = \frac{\text{Cov}(R_i, R_m)}{\text{Var}(R_m)} = \frac{\rho_{im} \sigma_i}{\sigma_m}
+\end{equation}
+
+\textbf{Persamaan Capital Asset Pricing Model (CAPM):}
+\begin{equation}
+\boxed{E(R_i) = R_f + \beta_i \left[E(R_m) - R_f\right]}
+\end{equation}
+
+\textbf{Capital Market Line (CML):}
+\begin{equation}
+E(R_p) = R_f + \left[\frac{E(R_m) - R_f}{\sigma_m}\right] \sigma_p
+\end{equation}
+
+\textbf{Ukuran Kinerja Portofolio:}
+\begin{align}
+\text{Sharpe Ratio} &= \frac{E(R_p) - R_f}{\sigma_p} \\
+\text{Treynor Ratio} &= \frac{E(R_p) - R_f}{\beta_p} \\
+\text{Jensen's Alpha} (\alpha_p) &= R_p - \left[R_f + \beta_p (R_m - R_f)\right]
+\end{align}
+
+\subsection{Penilaian Obligasi, Durasi \& Konveksitas (Bab 20)}
+
+\begin{equation}
+\text{Dirty Price} = \text{Clean Price} + \text{Accrued Interest}
+\end{equation}
+\begin{equation}
+\text{Accrued Interest} = C \times \left(\frac{\text{Days since last coupon}}{\text{Days in coupon period}}\right)
+\end{equation}
+
+\textbf{Macaulay Duration ($D$):}
+\begin{equation}
+D = \frac{1}{P} \sum_{t=1}^n \frac{t \cdot C}{(1 + y)^t} + \frac{n \cdot M}{P (1 + y)^n}
+\end{equation}
+
+\textbf{Modified Duration (MD):}
+\begin{equation}
+\text{MD} = \frac{D}{1 + y} = -\frac{1}{P} \frac{dP}{dy}
+\end{equation}
+
+\textbf{Konveksitas (Convexity):}
+\begin{equation}
+\text{Convexity} = \frac{1}{P (1 + y)^2} \sum_{t=1}^n \frac{t(t + 1) \cdot \text{CF}_t}{(1 + y)^t}
+\end{equation}
+
+\textbf{Aproksimasi Perubahan Harga Orde Kedua:}
+\begin{equation}
+\frac{\Delta P}{P} \approx -\text{MD} \times \Delta y + \frac{1}{2} \times \text{Convexity} \times (\Delta y)^2
+\end{equation}
+
+\subsection{Penilaian Saham Biasa \& DDM (Bab 22)}
+
+\begin{align}
+\text{Dividend Yield} &= \frac{\text{DPS}_1}{P_0}, \quad \text{Payout Ratio } (d) = \frac{\text{DPS}}{\text{EPS}}, \quad b = 1 - d \\
+g &= b \times \text{ROE} = (1 - d) \times \text{ROE}
+\end{align}
+
+\textbf{Model Gordon-Shapiro:}
+\begin{equation}
+P_0 = \frac{\text{Div}_1}{k_E - g} \implies k_E = \frac{\text{Div}_1}{P_0} + g
+\end{equation}
+
+\textbf{Model Pertumbuhan Dua Tahap (Two-Stage DDM):}
+\begin{equation}
+P_0 = \sum_{t=1}^H \frac{\text{Div}_t}{(1 + k_E)^t} + \frac{\text{Div}_{H+1}}{(k_E - g_2)(1 + k_E)^H}
+\end{equation}
+
+\subsection{Teori Opsi \& Model Black-Scholes-Merton (Bab 23)}
+
+\begin{align}
+\text{Call Payoff} &= \max(0, S_T - K) \\
+\text{Put Payoff} &= \max(0, K - S_T)
+\end{align}
+
+\textbf{Paritas Put-Call (Put-Call Parity):}
+\begin{equation}
+C - P = S_0 - K e^{-rT}
+\end{equation}
+
+\textbf{Model Binomial Cox-Ross-Rubinstein (CRR):}
+\begin{equation}
+u = e^{\sigma\sqrt{\Delta t}}, \quad d = \frac{1}{u} = e^{-\sigma\sqrt{\Delta t}}, \quad p = \frac{e^{r\Delta t} - d}{u - d}
+\end{equation}
+\begin{equation}
+C = e^{-r\Delta t} [p C_u + (1 - p) C_d]
+\end{equation}
+
+\textbf{Formula Black-Scholes-Merton (BSM):}
+\begin{equation}
+\boxed{C = S_0 N(d_1) - K e^{-rT} N(d_2)}
+\end{equation}
+\begin{equation}
+\boxed{P = K e^{-rT} N(-d_2) - S_0 N(-d_1)}
+\end{equation}
+dengan parameter penentu:
+\begin{equation}
+d_1 = \frac{\ln(S_0 / K) + \left(r + \frac{\sigma^2}{2}\right)T}{\sigma\sqrt{T}}, \quad d_2 = d_1 - \sigma\sqrt{T}
+\end{equation}
+
+\textbf{Turunan Greeks Opsi:}
+\begin{align}
+\Delta_{\text{call}} &= N(d_1), \quad \Delta_{\text{put}} = N(d_1) - 1 \\
+\Gamma &= \frac{N'(d_1)}{S_0 \sigma \sqrt{T}} \\
+\nu &= S_0 \sqrt{T} N'(d_1) \\
+\Theta_{\text{call}} &= -\frac{S_0 N'(d_1) \sigma}{2\sqrt{T}} - r K e^{-rT} N(d_2) \\
+\rho_{\text{call}} &= K T e^{-rT} N(d_2)
+\end{align}
+
+\subsection{Sekuritas Hibrida \& Obligasi Konversi (Bab 24)}
+
+\begin{align}
+\text{Conversion Ratio (CR)} &= \frac{\text{Nominal Value of Convertible Bond}}{\text{Conversion Price (CP)}} \\
+\text{Conversion Value} &= \text{CR} \times S_0 \\
+\text{Conversion Premium} &= \frac{P_{\text{CB}} - \text{Conversion Value}}{\text{Conversion Value}} \times 100\% \\
+\text{Bond Floor} &= \sum_{t=1}^n \frac{C}{(1 + y_{\text{straight}})^t} + \frac{M}{(1 + y_{\text{straight}})^n}
+\end{align}
+
+% =============================================================================
+% BAGIAN III: PENILAIAN DAN PENCIPTAAN NILAI (VALUE & VALUE CREATION)
+% =============================================================================
+\section{Penilaian dan Penciptaan Nilai (Value \& Value Creation)}
+
+\subsection{Enterprise Value \& Nilai Ekuitas (Bab 26)}
+
+\begin{equation}
+\text{EV} = \text{Market Cap} + \text{Net Debt} + \text{Minority Interests} - \text{Non-Operating Assets}
+\end{equation}
+\begin{equation}
+\text{Equity Value} = \text{EV} - \text{Net Debt} - \text{Minority Interests} + \text{Non-Operating Assets}
+\end{equation}
+
+\subsection{Metrik Penciptaan Nilai: EVA, MVA \& CFROI (Bab 27)}
+
+\textbf{Economic Value Added (EVA):}
+\begin{equation}
+\boxed{\text{EVA} = \text{NOPAT} - (\text{WACC} \times \text{Capital Employed}) = (\text{ROCE} - \text{WACC}) \times \text{Capital Employed}}
+\end{equation}
+
+\textbf{Market Value Added (MVA):}
+\begin{equation}
+\text{MVA} = \text{Market Value of Capital} - \text{Invested Capital} = \sum_{t=1}^\infty \frac{\text{EVA}_t}{(1 + \text{WACC})^t}
+\end{equation}
+
+\textbf{Cash Flow Return on Investment (CFROI):}
+\begin{equation}
+\text{CFROI} = \frac{\text{Gross Cash Flow}}{\text{Gross Invested Capital}}
+\end{equation}
+
+\textbf{Economic Profit Ekuitas:}
+\begin{equation}
+\text{Economic Profit} = \text{Net Income} - (k_E \times \text{Book Equity}) = (\text{ROE} - k_E) \times \text{Equity}
+\end{equation}
+
+\subsection{Kriteria Keputusan Investasi (Bab 28)}
+
+\begin{align}
+\text{NPV} &= -I_0 + \sum_{t=1}^n \frac{\text{CF}_t}{(1 + k)^t} \\
+\text{Profitability Index (PI)} &= \frac{\sum_{t=1}^n \frac{\text{CF}_t}{(1 + k)^t}}{I_0} = 1 + \frac{\text{NPV}}{I_0} \\
+\text{Equivalent Annual Annuity (EAA)} &= \frac{\text{NPV}}{\left[\frac{1 - (1 + k)^{-n}}{k}\right]}
+\end{align}
+
+\subsection{Biaya Modal Rata-Rata Tertimbang (WACC) (Bab 29)}
+
+\begin{equation}
+\boxed{\text{WACC} = k_E \left(\frac{E}{D + E}\right) + k_D (1 - T_c) \left(\frac{D}{D + E}\right)}
+\end{equation}
+dengan saham preferen:
+\begin{equation}
+\text{WACC} = k_E \left(\frac{E}{V}\right) + k_p \left(\frac{P}{V}\right) + k_D (1 - T_c) \left(\frac{D}{V}\right)
+\end{equation}
+di mana $k_E = R_f + \beta_E [E(R_m) - R_f]$, dan $k_p = \frac{\text{Div}_p}{P_{\text{pref}}}$.
+
+\subsection{Teknik Valuasi Lengkap: DCF \& Kelipatan Pasar (Bab 31)}
+
+\textbf{Enterprise DCF (Model FCFF):}
+\begin{equation}
+\text{EV} = \sum_{t=1}^N \frac{\text{FCFF}_t}{(1 + \text{WACC})^t} + \frac{\text{TV}_N}{(1 + \text{WACC})^N}
+\end{equation}
+\begin{equation}
+\text{Terminal Value } (\text{TV}_N) = \frac{\text{FCFF}_{N+1}}{\text{WACC} - g}
+\end{equation}
+\begin{equation}
+\text{Equity Value} = \text{EV} - \text{Net Debt}
+\end{equation}
+
+\textbf{Equity DCF (Model FCFE):}
+\begin{equation}
+\text{Equity Value} = \sum_{t=1}^N \frac{\text{FCFE}_t}{(1 + k_E)^t} + \frac{\text{TV}_{E,N}}{(1 + k_E)^N}, \quad \text{TV}_{E,N} = \frac{\text{FCFE}_{N+1}}{k_E - g}
+\end{equation}
+
+\textbf{Adjusted Present Value (APV):}
+\begin{equation}
+\text{APV} = \text{EV}_{\text{unlevered}} + \text{PV}(\text{Tax Shield}) - \text{PV}(\text{Bankruptcy Costs})
+\end{equation}
+
+\textbf{Kelipatan Valuasi (Valuation Multiples):}
+\begin{align}
+\text{P/E} &= \frac{P_0}{\text{EPS}_1} = \frac{\text{Market Cap}}{\text{Net Income}} \\
+\text{PEG Ratio} &= \frac{\text{P/E}}{\text{Annual EPS Growth Rate} \times 100} \\
+\text{EV/EBITDA} &= \frac{\text{Enterprise Value}}{\text{EBITDA}}, \quad \text{EV/Sales} = \frac{\text{Enterprise Value}}{\text{Sales}} \\
+\text{EV/CE} &= \frac{\text{Enterprise Value}}{\text{Capital Employed}}
+\end{align}
+
+% =============================================================================
+% BAGIAN IV: KEBIJAKAN KEUANGAN KORPORAT (FINANCIAL POLICIES)
+% =============================================================================
+\section{Kebijakan Keuangan Korporat (Corporate Financial Policies)}
+
+\subsection{Struktur Modal Modigliani-Miller (Bab 32 \& 33)}
+
+\textbf{Dunia Tanpa Pajak (MM 1958):}
+\begin{align}
+\text{Proposisi I} &: V_L = V_U \\
+\text{Proposisi II} &: k_E = k_0 + (k_0 - k_D) \left(\frac{D}{E}\right) \\
+\text{Asset Beta} &: \beta_A = \beta_E \left(\frac{E}{D + E}\right) + \beta_D \left(\frac{D}{D + E}\right)
+\end{align}
+
+\textbf{Dunia Dengan Pajak Korporasi (MM 1963):}
+\begin{align}
+\text{Proposisi I} &: V_L = V_U + T_c \cdot D \\
+\text{Proposisi II} &: k_E = k_0 + (k_0 - k_D)(1 - T_c) \left(\frac{D}{E}\right)
+\end{align}
+
+\subsection{Formula Hamada \& Harris-Pringle (Bab 33)}
+
+\textbf{Formula Hamada (Relevering Beta, $\beta_D = 0$):}
+\begin{equation}
+\boxed{\beta_E = \beta_U \left[1 + (1 - T_c) \left(\frac{D}{E}\right)\right]}
+\end{equation}
+\begin{equation}
+\beta_U = \frac{\beta_E}{1 + (1 - T_c) \left(\frac{D}{E}\right)}
+\end{equation}
+
+\textbf{Formula Harris-Pringle (Target Debt Ratio Stabil):}
+\begin{equation}
+\beta_E = \beta_U + (\beta_U - \beta_D) \left(\frac{D}{E}\right)
+\end{equation}
+
+\subsection{Model Opsi Struktural Merton (Bab 34)}
+
+\begin{equation}
+\text{Equity Value} = \text{Call}(V, K, T, \sigma_V, r) = V N(d_1) - K e^{-rT} N(d_2)
+\end{equation}
+\begin{equation}
+\text{Debt Value} = V - \text{Equity} = K e^{-rT} - \text{Put}(V, K, T, \sigma_V, r)
+\end{equation}
+
+\subsection{Dividen \& Pembelian Saham Kembali (Bab 36 \& 37)}
+
+\begin{equation}
+N_{\text{new}} = N_{\text{old}} - \frac{\text{Buyback Funds}}{P_{\text{repurchase}}}
+\end{equation}
+\begin{equation}
+\text{EPS}_{\text{new}} = \frac{\text{Net Income} - \text{Foregone Cash Interest} \times (1 - T_c)}{N_{\text{new}}}
+\end{equation}
+\takeaway{Ambang Batas Akresi Buyback}{Pembelian kembali saham meningkatkan $\text{EPS}$ jika dan hanya jika $\text{P/E} < \frac{1}{r_{\text{cash}}(1 - T_c)}$.}
+
+\subsection{Penerbitan Hak Memesan Efek (Rights Issue) (Bab 38)}
+
+\begin{equation}
+\text{TERP} = \frac{N \times P_0 + M \times S}{N + M}
+\end{equation}
+\begin{equation}
+R = P_0 - \text{TERP} = \frac{M \times (P_0 - S)}{N + M} = \frac{P_0 - S}{\frac{N}{M} + 1}
+\end{equation}
+\begin{equation}
+\text{Issue Discount} = \frac{P_0 - S}{P_0} \times 100\%
+\end{equation}
+
+% =============================================================================
+% BAGIAN V: MANAJEMEN KEUANGAN & REKAYASA FINANSIAL
+% =============================================================================
+\section{Manajemen Keuangan \& Rekayasa Finansial (Financial Management)}
+
+\subsection{Valuasi Modal Ventura \& Dilusi Pendiri (Bab 40)}
+
+\begin{align}
+\text{Post-Money Valuation} &= \text{Pre-Money Valuation} + \text{New Investment} \\
+\text{Investor Ownership \%} &= \frac{\text{New Investment}}{\text{Post-Money Valuation}} \\
+\text{Founder Ownership \%}_{\text{new}} &= \text{Founder Ownership \%}_{\text{old}} \times (1 - \text{Investor Ownership \%})
+\end{align}
+
+\subsection{Merger, Akuisisi \& Penilaian Sinergi (Bab 44 \& 45)}
+
+\begin{align}
+\text{Control Premium} &= \frac{P_{\text{offer}} - P_{\text{unaffected}}}{P_{\text{unaffected}}} \times 100\% \\
+\text{Exchange Ratio (ER)} &= \frac{P_{\text{offer per target share}}}{P_{\text{acquirer share}}} \\
+N_{\text{combined}} &= N_{\text{acquirer}} + (N_{\text{target}} \times \text{ER}) \\
+\text{Net Synergy} &= \text{PV}(\text{Operating Synergies}) + \text{PV}(\text{Financial Synergies}) - \text{Integration Costs}
+\end{align}
+
+\subsection{Leveraged Buyout (LBO) (Bab 46)}
+
+\begin{equation}
+\text{Total Uses} (\text{EV} + \text{Refinancing} + \text{Fees}) \equiv \text{Total Sources} (\text{Senior Debt} + \text{Mezzanine} + \text{Sponsor Equity})
+\end{equation}
+\begin{align}
+\text{MoIC} &= \frac{\text{Exit Equity Value}}{\text{Entry Sponsor Equity}} \\
+\text{Sponsor IRR} &= (\text{MoIC})^{1/n} - 1 \\
+\text{DSCR} &= \frac{\text{CFADS}}{\text{Debt Service (Principal + Interest)}}
+\end{align}
+
+\subsection{Model Manajemen Saldo Kas Optimal (Bab 49)}
+
+\textbf{Model Baumol-Allais-Tobin (BAT):}
+\begin{equation}
+\boxed{C^* = \sqrt{\frac{2 \cdot T \cdot F}{K}}}
+\end{equation}
+\begin{equation}
+\text{Total Cash Cost} = \left(\frac{T}{C}\right) F + \left(\frac{C}{2}\right) K
+\end{equation}
+di mana $T$ adalah total kebutuhan kas periode, $F$ adalah biaya transaksi tetap per transfer, dan $K$ adalah biaya peluang suku bunga.
+
+\textbf{Model Miller-Orr (Ketidakpastian Stokastik):}
+\begin{equation}
+\boxed{Z^* = L + \sqrt[3]{\frac{3 \cdot F \cdot \sigma^2}{4 \cdot K}}}
+\end{equation}
+\begin{equation}
+H^* = 3 Z^* - 2 L, \quad \text{Average Cash Balance} = \frac{4 Z^* - L}{3}
+\end{equation}
+di mana $L$ adalah batas bawah kas, dan $\sigma^2$ adalah varians arus kas harian.
+
+\subsection{Manajemen Risiko Pasar \& Derivatif (Bab 50)}
+
+\textbf{Covered Interest Rate Parity (CIP):}
+\begin{equation}
+F = S \times \left[\frac{1 + r_{\text{domestic}}}{1 + r_{\text{foreign}}}\right]
+\end{equation}
+\begin{equation}
+\text{Forward Premium/Discount} = \left(\frac{F - S}{S}\right) \times \left(\frac{360}{t}\right)
+\end{equation}
+
+\textbf{Purchasing Power Parity (PPP):}
+\begin{equation}
+S_t = S_0 \times \left[\frac{1 + i_{\text{domestic}}}{1 + i_{\text{foreign}}}\right]^t
+\end{equation}
+
+\textbf{Interest Rate Swap (IRS) Rate:}
+\begin{equation}
+R_{\text{swap}} = \frac{1 - P(0, T_n)}{\sum_{i=1}^n P(0, T_i) \times \tau_i}
+\end{equation}
+
+\textbf{Parametric Value at Risk (VaR):}
+\begin{equation}
+\text{VaR}_\alpha = -(\mu - z_\alpha \cdot \sigma) \times \text{Portfolio Value}
+\end{equation}
+dengan $z_{95\%} = 1.645$ dan $z_{99\%} = 2.326$.
+
+\textbf{Delta Hedging:}
+\begin{equation}
+N_{\text{shares}} = N_{\text{options}} \times \Delta_{\text{call}} = N_{\text{options}} \times N(d_1)
+\end{equation}
+
+\vfill
+\begin{center}
+    \rule{0.5\textwidth}{0.4pt}\\[4pt]
+    {\footnotesize\color{gray} Dokumen Kompilasi Formula Vernimmen Corporate Finance • Typeset in \LaTeX}
+\end{center}
+
+\end{document}

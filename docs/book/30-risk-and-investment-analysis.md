@@ -6,6 +6,14 @@ Halaman PDF 561–573. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=5
 
 [Catatan belajar bab 30](../study/30-risk-and-investment-analysis.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[Kompilasi dan peta keterkaitan](53-kompilasi-rumus.md) · [Catatan belajar Indonesia](../study/30-risk-and-investment-analysis.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 561
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=561)

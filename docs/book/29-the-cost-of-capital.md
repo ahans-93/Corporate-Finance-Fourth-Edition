@@ -6,6 +6,14 @@ Halaman PDF 544–560. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=5
 
 [Catatan belajar bab 29](../study/29-the-cost-of-capital.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S20](53-kompilasi-rumus.md#s20) · [S23](53-kompilasi-rumus.md#s23) · [Catatan belajar Indonesia](../study/29-the-cost-of-capital.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 544
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=544)

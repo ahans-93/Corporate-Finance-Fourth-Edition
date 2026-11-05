@@ -6,6 +6,14 @@ Halaman PDF 232–251. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=2
 
 [Catatan belajar bab 13](../study/13-return-on-capital-employed-and-return-on-equity.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S07](53-kompilasi-rumus.md#s07) · [Catatan belajar Indonesia](../study/13-return-on-capital-employed-and-return-on-equity.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 232
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=232)

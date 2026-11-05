@@ -6,6 +6,14 @@ Halaman PDF 252–262. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=2
 
 [Catatan belajar bab 14](../study/14-conclusion-of-financial-analysis.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S08](53-kompilasi-rumus.md#s08) · [Catatan belajar Indonesia](../study/14-conclusion-of-financial-analysis.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 252
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=252)

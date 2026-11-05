@@ -6,6 +6,14 @@ Halaman PDF 745–763. [PDF asli](../../CoreCourseFinancialAccounting.pdf#page=7
 
 [Catatan belajar bab 40](../study/40-setting-up-a-company-or-financing-startups.md) · [Daftar isi](../../SUMMARY.md)
 
+<!-- formula-supplement:start -->
+## Pelengkap rumus dan pembahasan
+
+[S27](53-kompilasi-rumus.md#s27) · [Catatan belajar Indonesia](../study/40-setting-up-a-company-or-financing-startups.md) · [Koreksi dan asumsi](54-catatan-koreksi-rumus.md)
+
+Bagian ini adalah pelengkap; teks hasil ekstraksi halaman buku dimulai di bawah.
+<!-- formula-supplement:end -->
+
 ## Halaman PDF 745
 
 [Lihat halaman asli](../../CoreCourseFinancialAccounting.pdf#page=745)
