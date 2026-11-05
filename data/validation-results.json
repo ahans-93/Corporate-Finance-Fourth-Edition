@@ -1,0 +1,377 @@
+{
+  "status": "PASS",
+  "pages_covered": 997,
+  "source_files": 53,
+  "study_chapters": 50,
+  "markdown_files": 114,
+  "local_links_checked": 2259,
+  "numerical_checks": 73,
+  "errors": [],
+  "numerical_results": [
+    {
+      "check": "01 PV of single claim",
+      "actual": 99.99999999999999,
+      "expected": 100
+    },
+    {
+      "check": "02 Cash movement",
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "03 Net income",
+      "actual": 150.0,
+      "expected": 150
+    },
+    {
+      "check": "04 Capital employed",
+      "actual": 830,
+      "expected": 830
+    },
+    {
+      "check": "05 FCFF",
+      "actual": 90.0,
+      "expected": 90
+    },
+    {
+      "check": "06 NCI",
+      "actual": 20.0,
+      "expected": 20
+    },
+    {
+      "check": "08 CAGR",
+      "actual": 0.10000000000000009,
+      "expected": 0.1
+    },
+    {
+      "check": "09 Price-volume growth",
+      "actual": 0.04499999999999993,
+      "expected": 0.045
+    },
+    {
+      "check": "10 Break-even units",
+      "actual": 5000.0,
+      "expected": 5000
+    },
+    {
+      "check": "10 DOL",
+      "actual": 6.0,
+      "expected": 6
+    },
+    {
+      "check": "11 DSO",
+      "actual": 36.5,
+      "expected": 36.5
+    },
+    {
+      "check": "12 DSCR",
+      "actual": 0.7692307692307693,
+      "expected": 0.7692307692307693
+    },
+    {
+      "check": "13 ROE positive spread",
+      "actual": 0.18,
+      "expected": 0.18
+    },
+    {
+      "check": "13 ROE negative spread",
+      "actual": 0.020000000000000004,
+      "expected": 0.02
+    },
+    {
+      "check": "14 Economic profit",
+      "actual": -20.0,
+      "expected": -20
+    },
+    {
+      "check": "15 Holding return",
+      "actual": 0.1,
+      "expected": 0.1
+    },
+    {
+      "check": "16 NPV at 10%",
+      "actual": 4.132231404958667,
+      "expected": 4.132231404958674
+    },
+    {
+      "check": "16 NPV at 15%",
+      "actual": -2.4574669187145446,
+      "expected": -2.45746691871455
+    },
+    {
+      "check": "17 Conventional IRR",
+      "actual": 0.09999999999999998,
+      "expected": 0.1
+    },
+    {
+      "check": "17 Effective annual rate",
+      "actual": 0.12682503013196977,
+      "expected": 0.12682503013196977
+    },
+    {
+      "check": "17 Multiple IRR first root",
+      "actual": -1.4210854715202004e-14,
+      "expected": 0
+    },
+    {
+      "check": "17 Multiple IRR second root",
+      "actual": 1.4210854715202004e-14,
+      "expected": 0
+    },
+    {
+      "check": "18 Diversified volatility",
+      "actual": 0.14142135623730953,
+      "expected": 0.1414213562373095
+    },
+    {
+      "check": "19 CAPM",
+      "actual": 0.11199999999999999,
+      "expected": 0.112
+    },
+    {
+      "check": "19 Forward rate",
+      "actual": 0.060096153846153744,
+      "expected": 0.06009615384615384
+    },
+    {
+      "check": "20 Bond price",
+      "actual": 98.16660733357065,
+      "expected": 98.16660733357067
+    },
+    {
+      "check": "20 Macaulay duration",
+      "actual": 1.9519492293744332,
+      "expected": 1.951950271996858
+    },
+    {
+      "check": "21 Factoring annualized simple cost",
+      "actual": 0.18814432989690724,
+      "expected": 0.1881443298969072
+    },
+    {
+      "check": "22 P/E",
+      "actual": 15.0,
+      "expected": 15
+    },
+    {
+      "check": "23 Call profit",
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "24 Conversion value",
+      "actual": 1200,
+      "expected": 1200
+    },
+    {
+      "check": "25 TERP",
+      "actual": 96.0,
+      "expected": 96
+    },
+    {
+      "check": "25 Right value",
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "26 Perpetual NPV",
+      "actual": 20.0,
+      "expected": 20
+    },
+    {
+      "check": "27 EVA",
+      "actual": 30.0,
+      "expected": 30
+    },
+    {
+      "check": "28 Investment NPV",
+      "actual": -29.710743801652903,
+      "expected": -29.710743801652896
+    },
+    {
+      "check": "29 WACC",
+      "actual": 0.10800000000000001,
+      "expected": 0.108
+    },
+    {
+      "check": "30 Value of contingent investment",
+      "actual": 25.0,
+      "expected": 25
+    },
+    {
+      "check": "31 Enterprise value",
+      "actual": 1428.5714285714284,
+      "expected": 1428.5714285714284
+    },
+    {
+      "check": "32 Levered equity cost",
+      "actual": 0.13333333333333333,
+      "expected": 0.13333333333333333
+    },
+    {
+      "check": "32 MM WACC",
+      "actual": 0.1,
+      "expected": 0.1
+    },
+    {
+      "check": "33 PV tax shield",
+      "actual": 25.0,
+      "expected": 25
+    },
+    {
+      "check": "34 Default equity payoff",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "35 Liquidity headroom",
+      "actual": 20,
+      "expected": 20
+    },
+    {
+      "check": "36 Retained growth",
+      "actual": 0.09,
+      "expected": 0.09
+    },
+    {
+      "check": "37 Buyback EPS",
+      "actual": 1.0777777777777777,
+      "expected": 1.0777777777777777
+    },
+    {
+      "check": "38 Ownership after issuance",
+      "actual": 0.08,
+      "expected": 0.08
+    },
+    {
+      "check": "39 Quarterly interest",
+      "actual": 1.7500000000000002,
+      "expected": 1.75
+    },
+    {
+      "check": "40 Runway",
+      "actual": 6.0,
+      "expected": 6
+    },
+    {
+      "check": "40 Post-money ownership",
+      "actual": 0.2,
+      "expected": 0.2
+    },
+    {
+      "check": "41 Indirect economic ownership",
+      "actual": 0.42,
+      "expected": 0.42
+    },
+    {
+      "check": "42 Primary proceeds",
+      "actual": 10000000000,
+      "expected": 10000000000
+    },
+    {
+      "check": "44 Acquisition buyer NPV",
+      "actual": 20,
+      "expected": 20
+    },
+    {
+      "check": "45 Combined EPS",
+      "actual": 1.0416666666666667,
+      "expected": 1.0416666666666667
+    },
+    {
+      "check": "46 LBO MOIC",
+      "actual": 1.75,
+      "expected": 1.75
+    },
+    {
+      "check": "46 LBO IRR",
+      "actual": 0.11842691472014466,
+      "expected": 0.118426914720144
+    },
+    {
+      "check": "47 Junior recovery",
+      "actual": 0.5,
+      "expected": 0.5
+    },
+    {
+      "check": "48 Working-capital cash release",
+      "actual": 50.0,
+      "expected": 50
+    },
+    {
+      "check": "49 Required draw",
+      "actual": 50,
+      "expected": 50
+    },
+    {
+      "check": "50 Locked IDR",
+      "actual": 1600000000,
+      "expected": 1600000000
+    },
+    {
+      "check": "Advanced annuity",
+      "actual": 248.68519909842243,
+      "expected": 248.68519909842223
+    },
+    {
+      "check": "Advanced real rate",
+      "actual": 0.05769230769230771,
+      "expected": 0.05769230769230771
+    },
+    {
+      "check": "Advanced Black-Scholes call",
+      "actual": 10.450583572185565,
+      "expected": 10.450583572185565
+    },
+    {
+      "check": "Advanced Black-Scholes put",
+      "actual": 5.573526022256971,
+      "expected": 5.573526022256971
+    },
+    {
+      "check": "Advanced put-call parity",
+      "actual": 4.877057549928594,
+      "expected": 4.877057549928594
+    },
+    {
+      "check": "Advanced terminal FCFF",
+      "actual": 96.0,
+      "expected": 96
+    },
+    {
+      "check": "Advanced supplier discount cost",
+      "actual": 0.37244897959183676,
+      "expected": 0.37244897959183676
+    },
+    {
+      "check": "Integrated terminal value",
+      "actual": 1854.0,
+      "expected": 1854
+    },
+    {
+      "check": "Integrated EV",
+      "actual": 1668.8569769651572,
+      "expected": 1668.8569769651572
+    },
+    {
+      "check": "Integrated equity value",
+      "actual": 1468.8569769651572,
+      "expected": 1468.8569769651572
+    },
+    {
+      "check": "Integrated ROE beginning capital",
+      "actual": 0.25125,
+      "expected": 0.25125
+    },
+    {
+      "check": "Integrated DSCR",
+      "actual": 1.8303571428571428,
+      "expected": 1.8303571428571428
+    },
+    {
+      "check": "Integrated WACC sensitivity",
+      "actual": 1322.92850367852,
+      "expected": 1322.92850367852
+    }
+  ]
+}

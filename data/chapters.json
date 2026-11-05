@@ -1,0 +1,402 @@
+[
+  {
+    "number": 1,
+    "title": "What is corporate finance?",
+    "printedStart": 1,
+    "pdfStart": 17,
+    "pdfEnd": 34,
+    "slug": "01-what-is-corporate-finance"
+  },
+  {
+    "number": 2,
+    "title": "Cash flow",
+    "printedStart": 19,
+    "pdfStart": 35,
+    "pdfEnd": 44,
+    "slug": "02-cash-flow"
+  },
+  {
+    "number": 3,
+    "title": "Earnings",
+    "printedStart": 29,
+    "pdfStart": 45,
+    "pdfEnd": 59,
+    "slug": "03-earnings"
+  },
+  {
+    "number": 4,
+    "title": "Capital employed and invested capital",
+    "printedStart": 44,
+    "pdfStart": 60,
+    "pdfEnd": 72,
+    "slug": "04-capital-employed-and-invested-capital"
+  },
+  {
+    "number": 5,
+    "title": "Walking through from earnings to cash flow",
+    "printedStart": 57,
+    "pdfStart": 73,
+    "pdfEnd": 86,
+    "slug": "05-walking-through-from-earnings-to-cash-flow"
+  },
+  {
+    "number": 6,
+    "title": "Getting to grips with consolidated accounts",
+    "printedStart": 71,
+    "pdfStart": 87,
+    "pdfEnd": 104,
+    "slug": "06-getting-to-grips-with-consolidated-accounts"
+  },
+  {
+    "number": 7,
+    "title": "How to cope with the most complex points in financial accounts",
+    "printedStart": 89,
+    "pdfStart": 105,
+    "pdfEnd": 132,
+    "slug": "07-how-to-cope-with-the-most-complex-points-in-financial-accounts"
+  },
+  {
+    "number": 8,
+    "title": "How to perform a financial analysis",
+    "printedStart": 117,
+    "pdfStart": 133,
+    "pdfEnd": 158,
+    "slug": "08-how-to-perform-a-financial-analysis"
+  },
+  {
+    "number": 9,
+    "title": "Margin analysis: structure",
+    "printedStart": 143,
+    "pdfStart": 159,
+    "pdfEnd": 181,
+    "slug": "09-margin-analysis-structure"
+  },
+  {
+    "number": 10,
+    "title": "Margin analysis: risks",
+    "printedStart": 166,
+    "pdfStart": 182,
+    "pdfEnd": 196,
+    "slug": "10-margin-analysis-risks"
+  },
+  {
+    "number": 11,
+    "title": "Working capital and capital expenditures",
+    "printedStart": 181,
+    "pdfStart": 197,
+    "pdfEnd": 217,
+    "slug": "11-working-capital-and-capital-expenditures"
+  },
+  {
+    "number": 12,
+    "title": "Financing",
+    "printedStart": 202,
+    "pdfStart": 218,
+    "pdfEnd": 231,
+    "slug": "12-financing"
+  },
+  {
+    "number": 13,
+    "title": "Return on capital employed and return on equity",
+    "printedStart": 216,
+    "pdfStart": 232,
+    "pdfEnd": 251,
+    "slug": "13-return-on-capital-employed-and-return-on-equity"
+  },
+  {
+    "number": 14,
+    "title": "Conclusion of financial analysis",
+    "printedStart": 236,
+    "pdfStart": 252,
+    "pdfEnd": 262,
+    "slug": "14-conclusion-of-financial-analysis"
+  },
+  {
+    "number": 15,
+    "title": "The financial markets",
+    "printedStart": 247,
+    "pdfStart": 263,
+    "pdfEnd": 283,
+    "slug": "15-the-financial-markets"
+  },
+  {
+    "number": 16,
+    "title": "The time value of money and net present value",
+    "printedStart": 268,
+    "pdfStart": 284,
+    "pdfEnd": 300,
+    "slug": "16-the-time-value-of-money-and-net-present-value"
+  },
+  {
+    "number": 17,
+    "title": "The internal rate of return",
+    "printedStart": 285,
+    "pdfStart": 301,
+    "pdfEnd": 316,
+    "slug": "17-the-internal-rate-of-return"
+  },
+  {
+    "number": 18,
+    "title": "Risk and return",
+    "printedStart": 301,
+    "pdfStart": 317,
+    "pdfEnd": 344,
+    "slug": "18-risk-and-return"
+  },
+  {
+    "number": 19,
+    "title": "The required rate of return",
+    "printedStart": 329,
+    "pdfStart": 345,
+    "pdfEnd": 364,
+    "slug": "19-the-required-rate-of-return"
+  },
+  {
+    "number": 20,
+    "title": "Bonds",
+    "printedStart": 349,
+    "pdfStart": 365,
+    "pdfEnd": 386,
+    "slug": "20-bonds"
+  },
+  {
+    "number": 21,
+    "title": "Other debt products",
+    "printedStart": 371,
+    "pdfStart": 387,
+    "pdfEnd": 401,
+    "slug": "21-other-debt-products"
+  },
+  {
+    "number": 22,
+    "title": "Shares",
+    "printedStart": 386,
+    "pdfStart": 402,
+    "pdfEnd": 421,
+    "slug": "22-shares"
+  },
+  {
+    "number": 23,
+    "title": "Options",
+    "printedStart": 406,
+    "pdfStart": 422,
+    "pdfEnd": 443,
+    "slug": "23-options"
+  },
+  {
+    "number": 24,
+    "title": "Hybrid securities",
+    "printedStart": 428,
+    "pdfStart": 444,
+    "pdfEnd": 461,
+    "slug": "24-hybrid-securities"
+  },
+  {
+    "number": 25,
+    "title": "Selling securities",
+    "printedStart": 446,
+    "pdfStart": 462,
+    "pdfEnd": 488,
+    "slug": "25-selling-securities"
+  },
+  {
+    "number": 26,
+    "title": "Value and corporate finance",
+    "printedStart": 473,
+    "pdfStart": 489,
+    "pdfEnd": 507,
+    "slug": "26-value-and-corporate-finance"
+  },
+  {
+    "number": 27,
+    "title": "Measuring value creation",
+    "printedStart": 492,
+    "pdfStart": 508,
+    "pdfEnd": 525,
+    "slug": "27-measuring-value-creation"
+  },
+  {
+    "number": 28,
+    "title": "Investment criteria",
+    "printedStart": 510,
+    "pdfStart": 526,
+    "pdfEnd": 543,
+    "slug": "28-investment-criteria"
+  },
+  {
+    "number": 29,
+    "title": "The cost of capital",
+    "printedStart": 528,
+    "pdfStart": 544,
+    "pdfEnd": 560,
+    "slug": "29-the-cost-of-capital"
+  },
+  {
+    "number": 30,
+    "title": "Risk and investment analysis",
+    "printedStart": 545,
+    "pdfStart": 561,
+    "pdfEnd": 573,
+    "slug": "30-risk-and-investment-analysis"
+  },
+  {
+    "number": 31,
+    "title": "Valuation techniques",
+    "printedStart": 558,
+    "pdfStart": 574,
+    "pdfEnd": 608,
+    "slug": "31-valuation-techniques"
+  },
+  {
+    "number": 32,
+    "title": "Capital structure and the theory of perfect capital markets",
+    "printedStart": 593,
+    "pdfStart": 609,
+    "pdfEnd": 620,
+    "slug": "32-capital-structure-and-the-theory-of-perfect-capital-markets"
+  },
+  {
+    "number": 33,
+    "title": "Capital structure, taxes and organisation theories",
+    "printedStart": 605,
+    "pdfStart": 621,
+    "pdfEnd": 637,
+    "slug": "33-capital-structure-taxes-and-organisation-theories"
+  },
+  {
+    "number": 34,
+    "title": "Debt, equity and options theory",
+    "printedStart": 622,
+    "pdfStart": 638,
+    "pdfEnd": 656,
+    "slug": "34-debt-equity-and-options-theory"
+  },
+  {
+    "number": 35,
+    "title": "Working out details: the design of the capital structure",
+    "printedStart": 641,
+    "pdfStart": 657,
+    "pdfEnd": 676,
+    "slug": "35-working-out-details-the-design-of-the-capital-structure"
+  },
+  {
+    "number": 36,
+    "title": "Returning cash to shareholders",
+    "printedStart": 661,
+    "pdfStart": 677,
+    "pdfEnd": 692,
+    "slug": "36-returning-cash-to-shareholders"
+  },
+  {
+    "number": 37,
+    "title": "Distribution in practice: dividends and share buy-backs",
+    "printedStart": 677,
+    "pdfStart": 693,
+    "pdfEnd": 710,
+    "slug": "37-distribution-in-practice-dividends-and-share-buybacks"
+  },
+  {
+    "number": 38,
+    "title": "Share issues",
+    "printedStart": 695,
+    "pdfStart": 711,
+    "pdfEnd": 723,
+    "slug": "38-share-issues"
+  },
+  {
+    "number": 39,
+    "title": "Implementing a debt policy",
+    "printedStart": 708,
+    "pdfStart": 724,
+    "pdfEnd": 744,
+    "slug": "39-implementing-a-debt-policy"
+  },
+  {
+    "number": 40,
+    "title": "Setting up a company or financing start-ups",
+    "printedStart": 729,
+    "pdfStart": 745,
+    "pdfEnd": 763,
+    "slug": "40-setting-up-a-company-or-financing-startups"
+  },
+  {
+    "number": 41,
+    "title": "Choice of corporate structure",
+    "printedStart": 748,
+    "pdfStart": 764,
+    "pdfEnd": 785,
+    "slug": "41-choice-of-corporate-structure"
+  },
+  {
+    "number": 42,
+    "title": "Initial public offerings (IPOs)",
+    "printedStart": 770,
+    "pdfStart": 786,
+    "pdfEnd": 798,
+    "slug": "42-initial-public-offerings-ipos"
+  },
+  {
+    "number": 43,
+    "title": "Corporate governance",
+    "printedStart": 783,
+    "pdfStart": 799,
+    "pdfEnd": 812,
+    "slug": "43-corporate-governance"
+  },
+  {
+    "number": 44,
+    "title": "Taking control of a company",
+    "printedStart": 797,
+    "pdfStart": 813,
+    "pdfEnd": 835,
+    "slug": "44-taking-control-of-a-company"
+  },
+  {
+    "number": 45,
+    "title": "Mergers and demergers",
+    "printedStart": 820,
+    "pdfStart": 836,
+    "pdfEnd": 852,
+    "slug": "45-mergers-and-demergers"
+  },
+  {
+    "number": 46,
+    "title": "Leveraged buyouts (LBOs)",
+    "printedStart": 837,
+    "pdfStart": 853,
+    "pdfEnd": 867,
+    "slug": "46-leveraged-buyouts-lbos"
+  },
+  {
+    "number": 47,
+    "title": "Bankruptcy and restructuring",
+    "printedStart": 852,
+    "pdfStart": 868,
+    "pdfEnd": 884,
+    "slug": "47-bankruptcy-and-restructuring"
+  },
+  {
+    "number": 48,
+    "title": "Managing working capital",
+    "printedStart": 869,
+    "pdfStart": 885,
+    "pdfEnd": 896,
+    "slug": "48-managing-working-capital"
+  },
+  {
+    "number": 49,
+    "title": "Managing cash flows",
+    "printedStart": 881,
+    "pdfStart": 897,
+    "pdfEnd": 915,
+    "slug": "49-managing-cash-flows"
+  },
+  {
+    "number": 50,
+    "title": "Managing financial risks",
+    "printedStart": 900,
+    "pdfStart": 916,
+    "pdfEnd": 940,
+    "slug": "50-managing-financial-risks"
+  }
+]
